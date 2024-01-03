@@ -1,0 +1,24 @@
+1) VERSÃO DO SEU NAVEGADOR
+
+# PROCURE A VERSÃO DO SEU CHROME ASSIM: 
+# Clique nos 3 pontinhos do canto superior direito do chrome -> Configurações -> Sobre o Chrome -> veja a versão
+
+
+2) ENCONTRANDO O CHROME DRIVER
+
+# Caso o seu chrome esteja na versão 119/120, é só ver se o código dá certo. 
+# Se não, entre no link e encontre o chomedriver da versão do seu chrome.
+# Em seguida, troque o endereço do chrome driver no código para o endereço do seu chromedriver do seu computador
+
+
+3) LINK PARA ACHAR O WEBDRIVER NA VERSÃO CERTA
+# https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+# SELECIONE A URL DA VERSAO DO WEBDRIVER DO SEU CHROME, COPIE E COLE NO NAVEGADOR
+# FAÇA O DOWNLOAD, EXTRAIA A PASTA NA PASTA DA ATIVIDADE 
+# APÓS ISSO, ATUALIZE A LINHA 20 
+
+OBS: o código os.getcwd() da linha 20 serve para ajudar o pc 
+a achar o chrome driver dentro desta pasta, pois pega o endereço da pasta. 
+# Por isso, recomendo colocar a pasta do chromedriver na mesma pasta da atividade 
+
